@@ -1,0 +1,65 @@
+/*------ NPF IMAGES READJUSTMENT | @glenthemes ------*/
+/*--- v2.0 [last updated: 2021-03-03] ----*/
+.npf_row {
+    margin-top:0;
+    margin-left:calc(var(--NPF-Image-Spacing) * -2)!important;
+    margin-right:calc(var(--NPF-Image-Spacing) * -2)!important;
+    max-height:none!important;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+}
+
+.tmblr-full {
+    margin:0;
+    cursor:pointer;
+	display:flex!important;
+	align-items:center!important;
+}
+
+.tmblr-full[data-tumblr-attribution] {
+    display:block!important;
+}
+
+.tmblr-full img {vertical-align:middle;}
+
+.npf_row_set .tmblr-full:first-of-type {
+    margin-left:calc(var(--NPF-Image-Spacing) * 2)!important;
+}
+
+.npf_row_set .tmblr-full {
+    margin-right:var(--NPF-Image-Spacing)!important;
+}
+
+.npf_row_set .tmblr-full:last-of-type {
+    margin-right:calc(var(--NPF-Image-Spacing) * 2)!important;
+}
+
+.tmblr-full img {
+    width:100%;
+    height:auto;
+}
+
+.npf_row, .npf_row .tmblr-full {
+    padding:0!important;
+}
+
+.npf_row_set, .npf_row_parent {
+    margin-bottom:var(--NPF-Image-Spacing);
+}
+
+.npf_row_set:last-of-type, .npf_row_parent:last-of-type {
+    margin-bottom:0;
+}
+
+.tmblr-full a.post_media_photo_anchor {
+    background:none!important;
+    padding:0!important;
+    border:none!important;
+    box-shadow:none!important;
+}
+
+.boooob {
+	margin-top:0px!important;
+	background:none;
+}
